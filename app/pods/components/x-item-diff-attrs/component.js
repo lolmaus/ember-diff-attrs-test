@@ -2,8 +2,11 @@ import XItemComponent from '../x-item/component';
 import layout from '../x-item/template';
 import diffAttrs from 'ember-diff-attrs';
 
+
+
 export default XItemComponent.extend({
   layout,
+
   didReceiveAttrs: diffAttrs(
     'one',
     'two',
