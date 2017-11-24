@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('did-change-attrs')
+  this.route('observer')
 });
 
 export default Router;

@@ -1,0 +1,27 @@
+{{x-toggler
+  one=one
+  two=two
+  three=three
+  four=four
+  five=five
+  six=six
+  seven=seven
+  eight=eight
+  nine=nine
+  ten=ten
+}}
+
+{{#each (times 100) as |i|}}
+  {{x-item-did-change-attrs
+    one=one
+    two=two
+    three=three
+    four=four
+    five=five
+    six=six
+    seven=seven
+    eight=eight
+    nine=nine
+    ten=ten
+  }}
+{{/each}}

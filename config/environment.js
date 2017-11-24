@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-diff-attrs-test',
+    podModulePrefix: 'ember-diff-attrs-test/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
