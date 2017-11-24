@@ -41,7 +41,7 @@ export default XItemComponent.extend({
           this.addObserver(attrName, this, observerName);
       });
   },
-  didUpdateAttrs() {
+  didReceiveAttrs() {
       this.didChangeAttrs(this.lastChangedAttrs);
       this.resetLastChangedAttrs();
       this._super(...arguments);
